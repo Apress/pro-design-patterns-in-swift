@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667A1C4619F7B0EF00060D1B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A1C4519F7B0EF00060D1B /* main.swift */; };
+		667A1C4D19F7B17A00060D1B /* Airplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A1C4C19F7B17A00060D1B /* Airplane.swift */; };
+		667A1C4F19F7B1A900060D1B /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A1C4E19F7B1A900060D1B /* Mediator.swift */; };
+		667A1C5119F7B22A00060D1B /* CommandMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A1C5019F7B22A00060D1B /* CommandMediator.swift */; };
+		667A1C5319F7B26200060D1B /* MessageMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A1C5219F7B26200060D1B /* MessageMediator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		667A1C4019F7B0EF00060D1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		667A1C4219F7B0EF00060D1B /* Mediator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mediator; sourceTree = BUILT_PRODUCTS_DIR; };
+		667A1C4519F7B0EF00060D1B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		667A1C4C19F7B17A00060D1B /* Airplane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airplane.swift; sourceTree = "<group>"; };
+		667A1C4E19F7B1A900060D1B /* Mediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		667A1C5019F7B22A00060D1B /* CommandMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandMediator.swift; sourceTree = "<group>"; };
+		667A1C5219F7B26200060D1B /* MessageMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageMediator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		667A1C3F19F7B0EF00060D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		667A1C3919F7B0EF00060D1B = {
+			isa = PBXGroup;
+			children = (
+				667A1C4419F7B0EF00060D1B /* Mediator */,
+				667A1C4319F7B0EF00060D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		667A1C4319F7B0EF00060D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667A1C4219F7B0EF00060D1B /* Mediator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667A1C4419F7B0EF00060D1B /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				667A1C4519F7B0EF00060D1B /* main.swift */,
+				667A1C4C19F7B17A00060D1B /* Airplane.swift */,
+				667A1C4E19F7B1A900060D1B /* Mediator.swift */,
+				667A1C5019F7B22A00060D1B /* CommandMediator.swift */,
+				667A1C5219F7B26200060D1B /* MessageMediator.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		667A1C4119F7B0EF00060D1B /* Mediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667A1C4919F7B0EF00060D1B /* Build configuration list for PBXNativeTarget "Mediator" */;
+			buildPhases = (
+				667A1C3E19F7B0EF00060D1B /* Sources */,
+				667A1C3F19F7B0EF00060D1B /* Frameworks */,
+				667A1C4019F7B0EF00060D1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mediator;
+			productName = Mediator;
+			productReference = 667A1C4219F7B0EF00060D1B /* Mediator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		667A1C3A19F7B0EF00060D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					667A1C4119F7B0EF00060D1B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 667A1C3D19F7B0EF00060D1B /* Build configuration list for PBXProject "Mediator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 667A1C3919F7B0EF00060D1B;
+			productRefGroup = 667A1C4319F7B0EF00060D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				667A1C4119F7B0EF00060D1B /* Mediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		667A1C3E19F7B0EF00060D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667A1C5119F7B22A00060D1B /* CommandMediator.swift in Sources */,
+				667A1C4F19F7B1A900060D1B /* Mediator.swift in Sources */,
+				667A1C4619F7B0EF00060D1B /* main.swift in Sources */,
+				667A1C5319F7B26200060D1B /* MessageMediator.swift in Sources */,
+				667A1C4D19F7B17A00060D1B /* Airplane.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		667A1C4719F7B0EF00060D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		667A1C4819F7B0EF00060D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		667A1C4A19F7B0EF00060D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		667A1C4B19F7B0EF00060D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		667A1C3D19F7B0EF00060D1B /* Build configuration list for PBXProject "Mediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667A1C4719F7B0EF00060D1B /* Debug */,
+				667A1C4819F7B0EF00060D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667A1C4919F7B0EF00060D1B /* Build configuration list for PBXNativeTarget "Mediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667A1C4A19F7B0EF00060D1B /* Debug */,
+				667A1C4B19F7B0EF00060D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 667A1C3A19F7B0EF00060D1B /* Project object */;
+}

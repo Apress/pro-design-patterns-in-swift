@@ -170,9 +170,11 @@
 				TargetAttributes = {
 					6636F77419F65D24002DE278 = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0820;
 					};
 					6636F78919F65D24002DE278 = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 6636F77419F65D24002DE278;
 					};
 				};
@@ -353,6 +355,7 @@
 				INFOPLIST_FILE = SportsStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -363,6 +366,7 @@
 				INFOPLIST_FILE = SportsStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -381,6 +385,7 @@
 				INFOPLIST_FILE = SportsStoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsStore.app/SportsStore";
 			};
 			name = Debug;
@@ -396,6 +401,7 @@
 				INFOPLIST_FILE = SportsStoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsStore.app/SportsStore";
 			};
 			name = Release;

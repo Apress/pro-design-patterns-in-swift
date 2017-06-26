@@ -2,11 +2,11 @@ import Foundation
 
 class Product : NSObject, NSCopying {
     
-    private(set) var name:String;
-    private(set) var productDescription:String;
-    private(set) var category:String;
-    private var stockLevelBackingValue:Int = 0;
-    private var priceBackingValue:Double = 0;
+    fileprivate(set) var name:String;
+    fileprivate(set) var productDescription:String;
+    fileprivate(set) var category:String;
+    fileprivate var stockLevelBackingValue:Int = 0;
+    fileprivate var priceBackingValue:Double = 0;
     
     init(name:String, description:String, category:String, price:Double,
         stockLevel:Int) {
@@ -25,7 +25,7 @@ class Product : NSObject, NSCopying {
         set { stockLevelBackingValue = max(0, newValue);}
     }
     
-    private(set) var price:Double {
+    fileprivate(set) var price:Double {
         get { return priceBackingValue;}
         set { priceBackingValue = max(1, newValue);}
     }
@@ -36,7 +36,7 @@ class Product : NSObject, NSCopying {
         }
     }
     
-    func copyWithZone(zone: NSZone) -> AnyObject {
+    func copy(with zone: NSZone?) -> Any {
         return Product(name: self.name, description: self.description,
             category: self.category, price: self.price,
             stockLevel: self.stockLevel);

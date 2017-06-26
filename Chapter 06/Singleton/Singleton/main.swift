@@ -2,16 +2,16 @@ import Foundation
 
 var server = BackupServer.server;
 
-let queue = dispatch_queue_create("workQueue", DISPATCH_QUEUE_CONCURRENT);
-let group = dispatch_group_create();
+let queue = DispatchQueue(label: "workQueue", attributes: DispatchQueue.Attributes.concurrent);
+let group = DispatchGroup();
 
 for count in 0 ..< 100 {
-    dispatch_group_async(group, queue, {() in
+    queue.async(group: group, execute: {() in
         BackupServer.server.backup(DataItem(type: DataItem.ItemType.Email,
             data: "bob@example.com"))
     });
 }
 
-dispatch_group_wait(group, DISPATCH_TIME_FOREVER);
+group.wait(timeout: DispatchTime.distantFuture);
 
-println("\(server.getData().count) items were backed up");
+print("\(server.getData().count) items were backed up");
